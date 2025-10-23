@@ -91,7 +91,7 @@ import {
         <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-12">
             <h3 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-              What's Included in Your Package
+              What&apos;s Included in Your Package
             </h3>
           </div>
           <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
