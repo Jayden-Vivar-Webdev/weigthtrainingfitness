@@ -10,7 +10,7 @@ export default function MobilePt() {
         {/* Background Image */}
         <div className="absolute inset-0">
             <img
-            src="/images/pattern-bg.png"
+            src="/images/dumbells.jpg"
             alt="Transformation background"
             className="h-full w-full object-cover opacity-60"
             />
@@ -21,8 +21,8 @@ export default function MobilePt() {
         {/* Content */}
         <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 text-center">
             <div className="mx-auto max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Personal Training That Comes To You
+            <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+                Mobile Personal Training
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
                 Book your first mobile personal training session today. Don&apos;t stress, let us come to you. 

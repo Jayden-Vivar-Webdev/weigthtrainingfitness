@@ -51,7 +51,7 @@ export default function NavBar() {
               {item.name}
             </a>
           ))}
-            <a href="/contact" className="rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+            <a href="/contact" className="rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
               Contact Us
             </a>
         </div>
@@ -95,7 +95,7 @@ export default function NavBar() {
                 
               </div>
               <div className="mt-6">
-                <a href="/contact" className="rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+                <a href="/contact" className="rounded-md bg-red-500 px-4.5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
                   Contact Us
                 </a>
               </div>

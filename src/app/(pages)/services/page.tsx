@@ -1,5 +1,6 @@
 'use client'
 
+import PantryCleanOut from "@/app/components/content/pantry";
 import ServiceContent from "@/app/components/content/service-content";
 import MobilePt from "@/app/components/content/service-mobile";
 import ServicesHero from "@/app/components/hero-sections/hero-services";
@@ -12,6 +13,7 @@ export default function Services(){
         <ServiceList/>
         <ServiceContent />
         <MobilePt />
+        <PantryCleanOut />
         
     </>
   )

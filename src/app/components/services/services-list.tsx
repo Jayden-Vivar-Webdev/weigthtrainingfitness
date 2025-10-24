@@ -21,15 +21,7 @@ export default function ServiceList() {
             We will help you get in shape. We have proven results with clients. Reach out and if you have time book an in person PT session.
           </p>
         </div>
-          
-          {/* <div>
-            <h1 className="red-h-text">
-              Our Services
-            </h1>
-            <div className="mt-6 para-text">
-              At Weight Training Fitness, we offer a range of professional services to help you achieve your fitness goals. Our offerings include personalised weight training programs, one-on-one coaching, fat loss strategies, strength and performance improvement, and overall wellness guidance. Each service is tailored to your needs, ensuring safe, effective, and measurable results every step of the way.
-            </div>
-          </div> */}
+        
         
         </div>
 

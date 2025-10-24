@@ -7,7 +7,7 @@ const services = [
       href: '/services#pt',
       price: '$100',
       description: 'Personalised Session',
-      imageSrc: '/images/products/fullbody-strength.jpg',
+      imageSrc: '/images/personal-training.jpg',
       imageAlt: 'Full personalised session based on clients needs',
     },
     {
@@ -16,7 +16,7 @@ const services = [
       href: '/services#weeklypt',
       price: '$250',
       description: 'Locked In Price',
-      imageSrc: '/images/products/body-weight.jpg',
+      imageSrc: '/images/5xsessions.jpg',
       imageAlt: 'Full Week Personal Training',
     },
     {
@@ -25,7 +25,7 @@ const services = [
       href: '/services#mobilept',
       price: 'Contact',
       description: 'Bringing Personal Training To You',
-      imageSrc: '/images/products/cardio.jpg',
+      imageSrc: '/images/mobile-personal-trainer.jpg',
       imageAlt: 'Fully customised personal training that is Mobile',
     },
     {
@@ -34,7 +34,7 @@ const services = [
       href: '/services#pantryclearout',
       price: 'Contact',
       description: 'Customised Clean Out & Groceries List',
-      imageSrc: '/images/products/cardio.jpg',
+      imageSrc: '/images/pantry.jpg',
       imageAlt: 'Full customised pantry clean out with groceries list',
     },
   ]

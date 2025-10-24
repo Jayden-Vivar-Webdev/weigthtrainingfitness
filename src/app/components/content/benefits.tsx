@@ -63,7 +63,7 @@ export default function BenefitsSection() {
         </div>
       </div>
       <div className="relative overflow-hidden pt-16">
-        <div className="mx-auto max-w-3/4 px-6 lg:px-8">
+        <div className="mx-auto md:max-w-3/4 px-6 lg:px-8">
           <Image
             alt="App screenshot"
             src="/images/wtf-ad.png"

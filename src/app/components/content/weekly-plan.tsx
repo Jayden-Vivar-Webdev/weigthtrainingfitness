@@ -44,20 +44,20 @@ import {
     
   export default function PTPackage() {
     return (
-      <div id='weeklypt' className="bg-black pb-24 sm:py-32 relative">
+      <div id='weeklypt' className="bg-gray-900/80 pb-24 sm:py-32 relative">
           <Image
             alt="Personal Training Sessions"
             src="/images/pattern-lr-bg.png"
             fill
             className="absolute inset-0 size-full object-cover opacity-10 [mask-image:linear-gradient(to_top,black_70%,transparent_100%)] z-0 pointer-events-none"
           />
-          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
+          <div className="absolute inset-x-0 bottom-0 h-30 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
         
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-base py-5 font-semibold text-red-600">Special Package Offer</h2>
             <p className="lg:mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
-              5x Personal Training Sessions
+              5 x Personal Training Session Package
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Lock in 5 personalized training sessions for just <span className="font-bold text-white">$250</span>. Get dedicated 1-on-1 coaching, customized programming, and the accountability you need to achieve your fitness goals.

@@ -6,11 +6,22 @@ export default function ServiceContent() {
   return (
     <>
     {/* CTA Section */}
-    <div className="bg-black border-t border-gray-800">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative bg-black border-t border-gray-800">
+      
+        <div className="absolute inset-0">
+            <img
+            src="/images/pattern-bg.png"
+            alt="Transformation background"
+            className="h-full w-full object-cover opacity-60"
+            />
+            {/* Overlay for readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
+        </div>
+        
+      <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Ready to start your transformation?
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+            1 On 1 Personal Training
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
             Book your first 1-on-1 session today and experience personalized training that delivers real results. 
@@ -47,7 +58,7 @@ export default function ServiceContent() {
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
             <p className="text-base/7 font-semibold text-red-600">Personal Training</p>
             <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              1-on-1 Training Sessions
+              Personalised Sessions
             </h1>
             <p className="mt-6 para-text">
               Experience personalized fitness coaching tailored specifically to your goals, fitness level, and lifestyle. 
@@ -113,8 +124,6 @@ export default function ServiceContent() {
         </div>
       </div>
     </div>
-    
-    
     <WeeklyPlan />
     </>
     
