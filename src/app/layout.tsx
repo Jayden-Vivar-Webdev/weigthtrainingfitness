@@ -51,6 +51,9 @@ export const metadata = {
     nosnippet: false,
     noimageindex: false,
     noarchive: false,
+    maxSnippet: -1,
+    maxImagePreview: 'large',
+    maxVideoPreview: -1,
   },
   icons: {
     icon: '/favicon.ico',
