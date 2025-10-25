@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./partials/navbar";
@@ -15,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Weight Training Fitness — Custom Personalised Training Programs',
   description: 'Providing Personal Training for Over 10 Years in Camden, Oran Park, Cobbity, and Denham Court. Achieve your fitness goals with tailored weight training programs.',
   applicationName: 'Weight Training Fitness',
