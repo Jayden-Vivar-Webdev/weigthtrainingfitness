@@ -30,7 +30,7 @@ const transformations = [
     id: 4,
     clientName: 'Muscle Builder',
     duration: '12 Months',
-    beforeImage: '/images/john.png',
+    beforeImage: '/images/john.PNG',
     afterImage: '/images/john-after.jpg',
     results: 'Lost 12kg, Toned Physique',
   },
