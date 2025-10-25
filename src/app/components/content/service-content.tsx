@@ -6,7 +6,7 @@ export default function ServiceContent() {
   return (
     <>
     {/* CTA Section */}
-    <div className="relative bg-black border-t border-gray-800">
+    <div id='pt' className="relative bg-black border-t border-gray-800">
       
         <div className="absolute inset-0">
             <img
@@ -21,10 +21,10 @@ export default function ServiceContent() {
       <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-            1 On 1 Personal Training
+            One On One Personal Training
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-            Book your first 1-on-1 session today and experience personalized training that delivers real results. 
+            Book your first session today and experience personalised training that delivers real results. 
             Limited spots available.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -32,7 +32,7 @@ export default function ServiceContent() {
               href="/contact"
               className="rounded-md bg-red-600 px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 transition-colors"
             >
-              Book Your Session
+              Book Your Session Now
             </a>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function ServiceContent() {
     </div>
 
     
-    <div id='pt' className="relative bg-black mt-30 border-b border-gray-800">
+    <div className="relative bg-black mt-30 border-b border-gray-800">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
@@ -62,11 +62,11 @@ export default function ServiceContent() {
             </h1>
             <p className="mt-6 para-text">
               Experience personalized fitness coaching tailored specifically to your goals, fitness level, and lifestyle. 
-              Our 1-on-1 sessions provide the focused attention and expert guidance you need to achieve real, lasting results.
+              Our sessions provide the focused attention and expert guidance you need to achieve real, lasting results.
             </p>
             <div className="mt-10 para-text">
               <p>
-                Every client is unique, which is why our 1-on-1 training sessions are completely customized to fit your 
+                Every client is unique, which is why our one on one training sessions are completely customised to fit your 
                 individual needs. Whether you&apos;re looking to build strength, lose weight, improve athletic performance, or 
                 simply feel better in your daily life, we&apos;ll create a program designed specifically for you and your goals.
               </p>
@@ -78,8 +78,8 @@ export default function ServiceContent() {
                   />
                   <span>
                     <strong className="font-semibold text-white">Customized Programming.</strong> Each session is designed 
-                    around your specific goals, current fitness level, and any limitations or injuries you may have. No cookie-cutter 
-                    workouts—just results-driven training that works for you.
+                    around your specific goals, current fitness level, and any limitations or injuries you may have. We provide result driven
+                     training that works for you.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -88,9 +88,9 @@ export default function ServiceContent() {
                     className="mt-1 size-5 flex-none text-red-600"
                   />
                   <span>
-                    <strong className="font-semibold text-white">Expert Coaching & Form Correction.</strong> Receive real-time 
+                    <strong className="font-semibold text-white">Expert Coaching & Form Correction.</strong> Receive real time 
                     feedback and technique coaching to ensure you&apos;re performing exercises safely and effectively, maximizing your 
-                    results while minimizing injury risk.
+                    results while minimising injury risk.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -106,16 +106,16 @@ export default function ServiceContent() {
                 </li>
               </ul>
               <p className="mt-8">
-                Our 1-on-1 sessions go beyond just working out. We focus on building sustainable habits, improving your 
+                Our sessions go beyond just working out. We focus on building sustainable habits, improving your 
                 relationship with fitness, and creating a training experience that fits seamlessly into your life. With flexible 
-                scheduling and personalized attention every step of the way, you&apos;ll have everything you need to succeed.
+                scheduling and personalised attention every step of the way, you&apos;ll have everything you need to succeed.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
                 New to training? We&apos;ve got you covered.
               </h2>
               <p className="">
-                Whether you&apos;re a complete beginner or getting back into fitness after time away, our 1-on-1 sessions provide 
-                a welcoming, judgment-free environment. We&apos;ll start where you are, not where you think you should be, and 
+                Whether you&apos;re a complete beginner or getting back into fitness after time away, our sessions provide 
+                a welcoming, judgment free environment. We&apos;ll start where you are, not where you think you should be, and 
                 build your confidence and strength gradually. Every session is an opportunity to learn, grow, and move closer 
                 to becoming the strongest version of yourself.
               </p>

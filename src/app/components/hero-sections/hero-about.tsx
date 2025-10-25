@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function HeroAbout() {
   return (
     <div className="bg-black">
-      <div className="relative isolate overflow-hidden pt-30 pb-10 md:pb-20">
+      <div className="relative isolate overflow-hidden pt-30 pb-0 md:pb-20">
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent pointer-events-none" />
         <Image
           alt="About Us"
@@ -21,10 +21,10 @@ export default function HeroAbout() {
           <div className="mx-auto max-w-2xl pt-32 pb-20 sm:pt-48 lg:pt-56">
             <div className="text-center">
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                About Weigth Training Fitness
+                About Weight Training Fitness
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-200 sm:text-xl/8">
-                We are passionate about helping you achieve your fitness goals through personalized training, expert guidance, and a supportive environment. Our team is dedicated to empowering you to transform your life and build long-lasting healthy habits.
+                We are passionate about helping you achieve your fitness goals through personalised training, expert guidance, and a supportive environment. We help people transform their lives and build long lasting healthy habits.
               </p>
             </div>
           </div>

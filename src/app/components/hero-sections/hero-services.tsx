@@ -3,7 +3,18 @@ import { ArrowRight } from "lucide-react"
 
 export default function ServicesHero() {
   return (
-    <div className="bg-black">
+    <div className="relative bg-black">
+      {/* Header Section */}
+      <div className="absolute inset-0">
+            <Image
+            src="/images/pattern-lr-bg.png"
+            alt="Transformation background"
+            fill
+            className="h-full w-full object-fit opacity-30"
+            />
+            {/* Overlay for readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/100"></div>
+        </div>
       <div className="relative isolate overflow-hidden">
         {/* Background Image for Mobile/Tablet */}
         <div className="absolute inset-0 lg:hidden">
@@ -30,15 +41,15 @@ export default function ServicesHero() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 pb-50 pt-80 sm:pb-60 sm:pt-80 lg:px-8 lg:pb-40 lg:pt-60 lg:pr-0">
+            <div className="relative px-6 pb-50 pt-80 sm:pb-60 sm:pt-80 lg:px-8 lg:pb-40 lg:pt-80 lg:pr-0 xl:pt-100">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 {/* Badge */}
                 <div className="hidden lg:flex mb-8 sm:mb-10">
                   <div className="hidden sm:flex relative rounded-full px-4 py-2 text-sm leading-6 text-gray-400 ring-1 ring-gray-800 hover:ring-gray-700 transition-all">
-                    Helping clients achieve their fitness goals for over 10 years.{' '}
-                    <a href="/about" className="font-semibold text-white hover:text-red-500 transition-colors">
-                      <span aria-hidden="true" className="absolute inset-0" />
-                      Read more <span aria-hidden="true">&rarr;</span>
+                    Helping clients achieve their fitness goals for over 10 years.
+                    <a href="/about" className="ml-2 font-semibold text-white hover:text-red-500 transition-colors">
+                      <span aria-hidden="true" className=" absolute inset-0" />
+                        Read more <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>

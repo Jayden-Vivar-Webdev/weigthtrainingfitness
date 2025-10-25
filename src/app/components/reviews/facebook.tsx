@@ -32,7 +32,7 @@ const defaultReviews: Review[] = [
   {
     id: 1,
     name: "Mel Mbitz",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    avatar: "/images/reviews/mel.jpg",
     rating: 5,
     timeAgo: "August 2024",
     text: "Great first session. Ethan was super friendly and approachable. He got me through an hour long first session with a mix of motivation and humour. I felt challenged and supported. Will definitely be going back!",
@@ -41,7 +41,7 @@ const defaultReviews: Review[] = [
   {
     id: 2,
     name: "Liza Gordon",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    avatar: "/images/reviews/liz.jpg",
     rating: 5,
     timeAgo: "November 2024",
     text: "My daughter and I both go to WTF, PT Ethan. After a long hard day, Ethan is that enthusiastic person who motivates us in a good intense workout and assist us in hitting our fitness goals. Due to our busy schedule Ethan has also proven his flexibility. I would recommend WTF PT to anyone.",
@@ -50,7 +50,7 @@ const defaultReviews: Review[] = [
   {
     id: 3,
     name: "Jasmine Vitagliano",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    avatar: "/images/reviews/jaz.jpg",
     rating: 5,
     timeAgo: "November 2024",
     text: "Ethan has been training me twice a week since May this year and with a busy work schedule like mine, doing late nights is very convenient for me. I’ve seen a few PT’s over the years but this is the longest that I have stayed with the one. He’s motivating and pushes me in every session which is exactly what I need and was looking for. I have noticed how much stronger I am and how much more I am able to do in each session compared to when I first started. There is no way I would be able to achieve what I have so far on my own. Can’t recommend enough!",
@@ -140,12 +140,24 @@ const FacebookReviews: React.FC<FacebookReviewsProps> = ({
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pb-30 pt-10 md:pt-25 space-y-6 z-[10]">
         <div>
-            <h1 className="red-h-text">
-                Weight Training Fitness
+            <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-red-500">
+              Weight Training Fitness
             </h1>
-            <div className="mt-6 para-text">
-                At Weight Training Fitness, I provide personalised training programs designed to help you reach your fitness goals safely and effectively. Whether your focus is building strength, losing fat, improving athletic performance, or boosting overall wellness, I offer one-on-one coaching that adapts to your individual needs. Every session is tailored to you, ensuring consistent progress and support every step of the way.
+
+            <div className="mt-8 px-6 py-8 bg-gray-100/5 border-l-4 border-red-600 rounded-r-lg">
+              <div className="text-lg leading-relaxed text-white italic">
+              <div className="mt-6 para-text">
+                &quot;I’m Ethan, a certified personal trainer dedicated to helping clients 
+                reach their fitness goals safely and effectively. 
+                Whether you want to build strength, lose fat, improve athletic performance, 
+                or boost overall wellness, I provide one on one coaching tailored to your needs. 
+                Every session is designed to keep you progressing, motivated, and supported every step of the way.&quot;
+              </div>
+
+              </div>
             </div>
+
+
         </div>
         
       </div>
@@ -206,10 +218,10 @@ const FacebookReviews: React.FC<FacebookReviewsProps> = ({
                 </div>
               </div>
               
-              <p className={`mt-4 ${styles.cardText} leading-relaxed line-clamp-4`}>{review.text}</p>
+              <p className={`mt-4 ${styles.cardText} leading-relaxed line-clamp-4 text-[16px]!`}>{review.text}</p>
               
               <div className={`mt-4 pt-4 border-t ${styles.border}`}>
-                <div className={`text-sm ${styles.helpful} flex items-center gap-1 transition-colors`}>
+                <div className={`text-sm! ${styles.helpful} flex items-center gap-1 transition-colors`}>
                   <span>💬</span>
                   <span>Comments ({review.helpful})</span>
                 </div>

@@ -10,23 +10,23 @@ import {
   
   const features = [
     {
-      name: 'Fully Customized',
+      name: 'Personalised Clearout',
       description: 'Your pantry assessment is tailored to your specific health goals, dietary needs, and lifestyle preferences.',
       icon: FireIcon,
     },
     {
       name: 'Expert Guidance',
-      description: 'Work with a certified nutrition professional who identifies hidden unhealthy ingredients and educates you on better choices.',
+      description: 'Work with a certified professional who identifies hidden unhealthy ingredients and educates you on better choices.',
       icon: TrophyIcon,
     },
     {
       name: 'Complete Grocery List',
-      description: 'Receive a personalized shopping list with healthy alternatives to replace what we remove from your pantry.',
+      description: 'Receive a personalised shopping list with healthy alternatives to replace what we remove from your pantry.',
       icon: ChartBarIcon,
     },
     {
       name: 'Flexible Scheduling',
-      description: 'Book your clean out at times that work for you — morning, evening, or weekend appointments available.',
+      description: 'Book your clean out at times that work for you. We will fit in with your schedule to help you.',
       icon: UserGroupIcon,
     },
     {
@@ -35,7 +35,7 @@ import {
       icon: BoltIcon,
     },
     {
-      name: 'Long-Term Health',
+      name: 'Long Term Health',
       description: 'Learn sustainable habits and nutrition knowledge that benefit your health well beyond the clean out.',
       icon: HeartIcon,
     },
@@ -56,11 +56,11 @@ import {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-base py-5 font-semibold text-red-600">Special Service Offer</h2>
-            <p className="lg:mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
-              In-Home Pantry Clean Out Service
+            <p className="lg:mt-2 text-pretty text-4xl font-semibold tracking-tight leading-tight text-white sm:text-balance sm:text-5xl">
+              In Home Pantry Clean Out Service
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Transform your kitchen space for success<span className="font-bold text-white"></span>. Your personal trainer comes to your home, removes all the unhealthy foods sabotaging your progress, and provides you with a customized grocery list for success.
+              Transform your kitchen space for success<span className="font-bold text-white"></span>. We come to your home, removes all the unhealthy foods sabotaging your progress, and provides you with a customised grocery list for success.
             </p>
             <div className="mt-8 flex items-center justify-center gap-x-6">
               <a
@@ -83,7 +83,7 @@ import {
               className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-white/10"
             />
             <div aria-hidden="true" className="relative">
-              <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-black pt-[7%]" />
+              <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-gray-900/80 pt-[7%]" />
             </div>
           </div>
         </div>

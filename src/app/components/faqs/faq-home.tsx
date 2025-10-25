@@ -1,3 +1,7 @@
+'use client'
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+import Image from 'next/image';
 const faqs = [
   {
     id: 1,
@@ -29,52 +33,94 @@ const faqs = [
     answer:
       "Not necessarily. I bring what's needed for your session, and many exercises can be done using just your body weight. Optional equipment can be added for variety and progression.",
   },
-]
+];
 
 export default function FAQs() {
+  const [openId, setOpenId] = useState<number | null>(null);
+  const toggleFAQ = (id: number) => {
+    setOpenId(openId === id ? null : id);
+  };
+
   return (
-    <div className="bg-black">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+    <div className="bg-black min-h-screen relative">
+      <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32 lg:px-8">
         {/* Header Section */}
-        <div className="mx-auto">
-          <h1 className="red-h-text">
+        <div className="absolute inset-0">
+            <Image
+            src="/images/pattern-lr-bg.png"
+            alt="Transformation background"
+            fill
+            className="h-full w-full object-cover opacity-20"
+            />
+            {/* Overlay for readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/100"></div>
+        </div>
+
+        
+        <div className="relative mx-auto max-w-3xl text-center">
+          <h2 className="text-base font-semibold text-red-500 tracking-wide uppercase">
+            Support
+          </h2>
+          <h1 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Frequently Asked Questions
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
-            At Weight Training Fitness, I provide personalised training programs designed to help you reach your fitness goals safely and effectively. Whether your focus is building strength, losing fat, improving athletic performance, or boosting overall wellness, I offer one-on-one coaching that adapts to your individual needs. Every session is tailored to you, ensuring consistent progress and support every step of the way.
+          <p className="mt-6 text-lg leading-8 text-gray-100">
+            At Weight Training Fitness, I provide personalised training programs designed to help you reach your fitness goals safely and effectively. Whether your focus is building strength, losing fat, improving athletic performance, or boosting overall wellness, I offer one-on-one coaching that adapts to your individual needs.
           </p>
         </div>
 
-        {/* FAQs Grid */}
-        <div className="mx-auto mt-16 sm:mt-20">
-          <dl className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-x-12 lg:gap-y-12">
+        {/* FAQs Accordion */}
+        <div className="mx-auto mt-16 max-w-3xl sm:mt-20">
+          <div className="space-y-4">
             {faqs.map((faq) => (
-              <div 
-                key={faq.id} 
-                className="relative rounded-2xl border border-gray-800 bg-gray-900/50 p-8 transition-all hover:border-red-600/50 hover:bg-gray-900/80"
+              <div
+                key={faq.id}
+                className="border border-gray-800 rounded-lg overflow-hidden bg-gray-900/30 backdrop-blur-sm transition-all duration-200 hover:border-gray-700"
               >
-                <dt className="text-lg font-semibold leading-7 text-white">
-                  {faq.question}
-                </dt>
-                <dd className="mt-4 text-base leading-7 text-gray-300">
-                  {faq.answer}
-                </dd>
+                <button
+                  onClick={() => toggleFAQ(faq.id)}
+                  className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 transition-colors hover:bg-gray-900/50"
+                >
+                  <span className="text-lg font-semibold text-white">
+                    {faq.question}
+                  </span>
+                  <ChevronDown
+                    className={`w-5 h-5 text-red-500 flex-shrink-0 transition-transform duration-200 ${
+                      openId === faq.id ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-200 ${
+                    openId === faq.id ? 'max-h-48' : 'max-h-0'
+                  }`}
+                >
+                  <div className="px-6 pb-5 pt-1 text-base leading-7 text-gray-300">
+                    {faq.answer}
+                  </div>
+                </div>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
 
         {/* Contact CTA */}
-        <div className="mx-auto mt-16 max-w-2xl text-center sm:mt-20">
+        <div className="relative mx-auto mt-16 max-w-2xl text-center sm:mt-20 px-6 py-8 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700">
+          <h3 className="text-xl font-semibold text-white mb-3">
+            Still have questions?
+          </h3>
           <p className="text-base leading-7 text-gray-400">
-            Have a different question and can&apos;t find the answer you&apos;re looking for? Reach out to our support team by{' '}
-            <a href="#" className="font-semibold text-red-400 hover:text-red-500 transition-colors">
-              sending us an email
+            Can&apos;t find the answer you&apos;re looking for? Reach out to me by{' '}
+            <a 
+              href="/contact" 
+              className="font-semibold text-red-500 hover:text-red-400 transition-colors underline decoration-red-500/30 hover:decoration-red-400"
+            >
+              sending an email
             </a>{' '}
-            and we&apos;ll get back to you as soon as we can.
+            and I&apos;ll get back to you as soon as possible.
           </p>
         </div>
       </div>
     </div>
-  )
+  );
 }

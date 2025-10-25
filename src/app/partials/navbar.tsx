@@ -47,7 +47,7 @@ export default function NavBar() {
         </div>
         <div className="hidden justify-center items-center lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
+            <a key={item.name} href={item.href} className="text-base font-semibold text-white">
               {item.name}
             </a>
           ))}
@@ -81,21 +81,20 @@ export default function NavBar() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/25">
-              <div className="space-y-2 py-6">
+            <div className="flex w-full flex-col items-center space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800"
+                    className="block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800"
                   >
                     {item.name}
                   </a>
-                  
                 ))}
-                
               </div>
-              <div className="mt-6">
-                <a href="/contact" className="rounded-md bg-red-500 px-4.5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+
+              <div className="mt-6 flex w-full justify-center">
+                <a href="/contact" className="rounded-md bg-red-500 w-full text-center px-4.5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
                   Contact Us
                 </a>
               </div>

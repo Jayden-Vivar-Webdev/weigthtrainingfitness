@@ -62,8 +62,8 @@ export default function MobilePt() {
               <div className="mt-12 space-y-6 text-gray-400">
                 <p className="para-text">
                   Skip the commute and train on your schedule. Our mobile personal training service eliminates every barrier between you and your fitness goals. 
-                  We bring professional-grade equipment, expert coaching, and personalized programming right to your doorstep—whether that&apos;s your home, 
-                  local park, or building gym. You get the same high-quality training experience without ever leaving your neighborhood.
+                  We bring professional grade equipment, expert coaching, and personalised programming right to your doorstep whether that&apos;s your home, 
+                  local park, or gym. You get the same high quality training experience without ever leaving your neighborhood.
                 </p>
 
                 {/* Feature Cards */}
@@ -78,7 +78,7 @@ export default function MobilePt() {
                       <div>
                         <h3 className="text-lg font-semibold text-white mb-2">Complete Equipment Setup</h3>
                         <p className="text-sm leading-6 text-gray-400">
-                          We arrive fully equipped with everything needed for an effective workout—dumbbells, resistance bands, kettlebells, mats, and more. No gym membership required, no equipment purchases necessary.
+                          We arrive fully equipped with everything needed for an effective workout. Dumbbells, resistance bands, kettlebells, mats, and more. No gym membership required, no equipment purchases necessary.
                         </p>
                       </div>
                     </div>
@@ -94,7 +94,7 @@ export default function MobilePt() {
                       <div>
                         <h3 className="text-lg font-semibold text-white mb-2">Ultimate Flexibility & Convenience</h3>
                         <p className="text-sm leading-6 text-gray-400">
-                          Train at times that work for your busy lifestyle. Early morning before work, during lunch breaks, or evening sessions—we adapt to your schedule. Save time on commuting and maximize your day.
+                          Train at times that work for your busy lifestyle. Early morning before work, during lunch breaks, or evening sessions, we adapt to your schedule. Save time on commuting and maximize your day.
                         </p>
                       </div>
                     </div>
@@ -118,7 +118,7 @@ export default function MobilePt() {
                 </div>
 
                 <p className="mt-8 para-text">
-                  Mobile training isn&apos;t just convenient—it&apos;s more effective. With personalized attention in a comfortable environment, 
+                  Mobile training isn&apos;t just convenient it&apos;s more effective. With personalised attention in a comfortable environment, 
                   you&apos;ll stay consistent, build confidence faster, and see results without the hassle of traditional gym workouts. Whether you have 
                   a home gym setup, a garage, outdoor space, or just a living room, we&apos;ll make it work and deliver professional training that fits your lifestyle.
                 </p>
@@ -129,9 +129,9 @@ export default function MobilePt() {
                     Perfect for busy professionals and families
                   </h2>
                   <p className=" text-base leading-7 text-gray-300">
-                    No time for the gym? No problem. Our mobile training is designed for people with demanding schedules who still want to prioritize their health. 
+                    No time for the gym? No problem. Our mobile training is designed for people with demanding schedules who still want to prioritise their health. 
                     Parents can train while kids nap or play nearby. Professionals can fit in effective workouts without losing hours to commuting. 
-                    We handle all the setup and cleanup—you just show up ready to work. It&apos;s personal training reimagined for modern life.
+                    We handle everything for you, just show up ready to work. It&apos;s personal training adapted to a busy modern lifestyle.
                   </p>
                 </div>
               </div>

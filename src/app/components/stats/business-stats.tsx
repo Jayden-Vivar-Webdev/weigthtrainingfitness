@@ -9,17 +9,17 @@ export default function FitnessStatsSection() {
       icon: Users
     },
     {
-      stat: "15+",
+      stat: "10+",
       description: "Years Experience",
-      icon: Trophy
-    },
-    {
-      stat: "10k+",
-      description: "Training Sessions",
       icon: Dumbbell
     },
     {
-      stat: "98%",
+      stat: "5/5",
+      description: "Star Reviews",
+      icon: Trophy
+    },
+    {
+      stat: "100%",
       description: "Success Rate",
       icon: TrendingUp
     }

@@ -4,27 +4,24 @@ import Image from 'next/image';
 export default function AboutTrainer() {
   return (
     <>
-      {/* Hero Section with Gradient Background */}
-     
-        {/* Client Image */}
-        
-
-        {/* Bottom gradient */}
-        
+      
+        <div className='md:pt-20'></div>
         <div className="relative w-full h-90 lg:h-[40vh] xl:h-[50vh]">
+            
             <Image
-                src="/images/personal-trainer.png"
-                alt="Personal Trainer"
-                fill
-                className="object-cover lg:object-contain scale-105 translate-y-4 [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]"
+              alt="Background pattern"
+              src="/images/pattern-lr-bg.png"
+              fill
+              className="absolute inset-0 object-cover opacity-10 mask-image-[linear-gradient(to_top,black_70%,transparent_100%)] z-0 pointer-events-none"
             />
             <Image
-            alt="Background pattern"
-            src="/images/pattern-lr-bg.png"
-            fill
-            className="absolute inset-0 object-cover opacity-10 mask-image-[linear-gradient(to_top,black_70%,transparent_100%)] z-0 pointer-events-none"
-        />
-            <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent pointer-events-none" />
+                src="/images/about.png"
+                alt="Personal Trainer"
+                fill
+                className="object-contain px-5 lg:object-contain scale-105 translate-y-4 [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]"
+            />
+       
+            <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black to-transparent pointer-events-none" />
         </div>
         
         {/* Background pattern overlay */}
@@ -41,15 +38,15 @@ export default function AboutTrainer() {
                 <span className="text-sm font-semibold text-red-500">10+ Years Experience</span>
               </div>
               <h1 className="mt-6 text-pretty text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                Your Partner in Fitness
+                Your Partner in Fitness - Ethan
               </h1>
               <p className="">
-                With over a decade of experience in personal training and elite sports performance, I specialize in creating customized fitness programs that deliver real, sustainable results. My approach combines evidence-based training methods with genuine care for each client&apos;s unique journey.
+                With over a decade of experience in personal training and elite sports performance, I specialise in creating customised fitness programs for my clients that deliver real, sustainable results. My approach combines evidence based training methods with genuine care for each client&apos;s unique journey.
               </p>
 
               <div className="mt-12 space-y-6 text-gray-400">
                 <p className="">
-                  I believe fitness is more than just exercise—it&apos;s about building confidence, creating healthy habits, and unlocking your full potential. Whether you&apos;re taking your first steps toward a healthier lifestyle or pushing to reach new performance goals, I&apos;m here to guide, support, and challenge you every step of the way.
+                  I believe fitness is more than just exercise it&apos;s about building confidence, creating healthy habits, and unlocking your full potential. Whether you&apos;re taking your first steps toward a healthier lifestyle or pushing to reach new performance goals, I&apos;m here to guide, support, and challenge you every step of the way.
                 </p>
 
                 {/* Credentials Cards */}
@@ -74,7 +71,7 @@ export default function AboutTrainer() {
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-red-500 mt-1">•</span>
-                            <span>Specialized in <strong className="text-white">strength and conditioning</strong></span>
+                            <span>Specialised in <strong className="text-white">strength and conditioning</strong></span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-red-500 mt-1">•</span>
@@ -124,7 +121,7 @@ export default function AboutTrainer() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-white mb-3">Specialized Expertise</h3>
+                        <h3 className="text-xl font-bold text-white mb-3">Specialised Expertise</h3>
                         <ul className="space-y-2 text-gray-300">
                           <li className="flex items-start gap-2">
                             <span className="text-red-500 mt-1">•</span>
@@ -140,7 +137,7 @@ export default function AboutTrainer() {
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-red-500 mt-1">•</span>
-                            <span><strong className="text-white">Personalized Programs</strong> for all fitness levels</span>
+                            <span><strong className="text-white">Personalised Programs</strong> for all fitness levels</span>
                           </li>
                         </ul>
                       </div>
@@ -149,7 +146,7 @@ export default function AboutTrainer() {
                 </div>
 
                 <p className="">
-                  My training philosophy is simple: meet you where you are and guide you to where you want to be. Drawing from my elite sports background and decade of coaching experience, I know what it takes to achieve extraordinary results. No judgment, no cookie-cutter programs—just personalized coaching tailored to your body, your goals, and your lifestyle.
+                  My training philosophy is simple: meet you where you are and guide you to where you want to be. Drawing from my elite sports background and decade of coaching experience, I know what it takes to achieve extraordinary results. No judgment, only personalised coaching tailored to your body, your goals, and your lifestyle.
                 </p>
 
                 {/* Philosophy Callout */}
@@ -158,7 +155,7 @@ export default function AboutTrainer() {
                     Training Philosophy
                   </h2>
                   <p className="text-base leading-7 text-gray-300">
-                    Fitness is a journey, not a destination. Whether you&apos;re recovering from injury, learning to box, or building strength and conditioning, I focus on sustainable habits and proper movement patterns. My clients don&apos;t just get workouts—they gain knowledge, confidence, and tools to maintain their results for life. From complete beginners to experienced athletes, I bring the same level of dedication, expertise, and championship mentality to every single session.
+                    Fitness is a journey, not a destination. Whether you&apos;re recovering from injury, learning to box, or building strength and conditioning, I focus on sustainable habits and proper movement patterns. My clients don&apos;t just get workouts they gain knowledge, confidence, and tools to maintain their results for life. From complete beginners to experienced athletes, I bring the same level of dedication, expertise, and championship mentality to every single session.
                   </p>
                 </div>
 
@@ -172,8 +169,8 @@ export default function AboutTrainer() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-white mb-2">My Commitment to You</h3>
-                      <p className="text-sm leading-6 text-gray-400">
-                        When you train with me, you get more than a workout—you get a dedicated partner invested in your success. I&apos;m committed to showing up with energy, expertise, and genuine care for your progress. Your goals become my goals, and together we&apos;ll create the transformation you&apos;re looking for.
+                      <p className="text-base leading-6 text-gray-400">
+                        When you train with me, you get more than a workout you get a dedicated coach invested in your success. I&apos;m committed to showing up with energy, expertise, and genuine care for your progress. Your goals become my goals, and together we&apos;ll create the transformation you&apos;re looking for.
                       </p>
                     </div>
                   </div>
