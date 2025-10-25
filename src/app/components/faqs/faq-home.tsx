@@ -43,7 +43,7 @@ export default function FAQs() {
 
   return (
     <div className="bg-black min-h-screen relative">
-      <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-5xl px-6 pb-24 sm:py-32 lg:px-8">
         {/* Header Section */}
         <div className="absolute inset-0">
             <Image

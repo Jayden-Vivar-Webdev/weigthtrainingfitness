@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function ServiceList() {
     return (
         <>
-        <div className="relative min-h-[600px] pb-40">
+        <div className="relative min-h-[600px] lg:pb-40">
           <Image
             alt="Personal Training Programs"
             src="/images/push-press.jpg"
