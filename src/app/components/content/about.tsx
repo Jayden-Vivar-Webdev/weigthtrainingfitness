@@ -6,7 +6,7 @@ export default function AboutTrainer() {
     <>
       
         <div className='md:pt-20'></div>
-        <div className="relative w-full h-50 lg:h-[40vh] xl:h-[50vh]">
+        <div className="relative w-full h-60 lg:h-[40vh] xl:h-[50vh]">
             
             <Image
               alt="Background pattern"

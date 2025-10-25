@@ -23,7 +23,7 @@ export default function HeroAbout() {
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
                 About Weight Training Fitness
               </h1>
-              <p className="mt-8 text-pretty text-lg font-medium text-gray-200 sm:text-xl/8">
+              <p className="relative mt-8 text-pretty text-lg font-medium text-gray-200 sm:text-xl/8">
                 We are passionate about helping you achieve your fitness goals through personalised training, expert guidance, and a supportive environment. We help people transform their lives and build long lasting healthy habits.
               </p>
             </div>
